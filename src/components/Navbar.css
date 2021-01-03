@@ -1,0 +1,23 @@
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 50px 0px 20px;
+  height: 75px; /*height of NVBAR*/
+}
+.ttt {
+  background-color: yellowgreen !important;
+  border-radius: 5px;
+  padding: 0px 5px 2px 5px;
+  font-family: serif;
+}
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}

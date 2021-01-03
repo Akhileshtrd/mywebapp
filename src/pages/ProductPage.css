@@ -1,0 +1,10 @@
+.prodpic {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: auto;
+  max-width: 600px;
+  border-width: 2px;
+  margin: 20px 30px 30px 40px;
+  border: 5px solid white;
+  border-style: groove;
+}

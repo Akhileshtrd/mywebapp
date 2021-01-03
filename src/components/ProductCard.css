@@ -1,0 +1,90 @@
+.ProductCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+.responsiveonly {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.myheader {
+  margin-bottom: -10px;
+  text-align: center;
+  color: yellowgreen;
+}
+
+.pcontainer {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.pcontainer .pcode {
+  border: 1px solid #fff;
+  position: absolute;
+  border-radius: 0 5px 0 5px;
+  right: 0;
+  background: #fa8100;
+  font-size: small;
+
+  color: #fff;
+  padding: 1px;
+}
+.pcontainer .pcode-tag {
+  display: none;
+  color: #d9edf7;
+}
+.pcontainer .pprice {
+  border: 1px solid #fff;
+  position: absolute;
+  border-radius: 5px 0 5px 0;
+  left: 0;
+  background: #24602f;
+  font-size: small;
+  color: #fff;
+  padding: 1px;
+}
+.pcontainer .pname {
+  position: absolute;
+  bottom: 0;
+
+  color: #f1f1f1;
+  width: 100%;
+  padding-left: 25px;
+  font-size: x-large;
+}
+
+.myimg {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 24px;
+}
+
+.myimg:hover {
+  border-radius: 2px;
+  border: 2px solid #fff;
+}
+
+.pprice:hover {
+  font-size: large;
+}
+.pcode:hover {
+  font-size: large;
+}
+
+.pcontainer .pdetail {
+  position: absolute;
+  bottom: 0;
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
+  color: green;
+  width: 100%;
+  padding: 5px;
+  border-radius: 0 0 5px 5px;
+  display: none;
+}
+
+.pcontainer .pdetail:hover {
+  display: inline;
+}

@@ -1,0 +1,28 @@
+.mytest {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 30px;
+  text-align: left;
+  background-color: chocolate;
+  color: black;
+}
+
+.responsiveonly {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bttn {
+  background-color: yellowgreen;
+  border-radius: 5px;
+  padding: 0px 5px 2px 5px;
+  font-size: larger;
+  font-family: serif;
+  text-align: left;
+}
+.home-content-text-box {
+  padding-top: 30px;
+  margin-right: 5vw;
+  margin-bottom: 30px;
+  width: 100%;
+}

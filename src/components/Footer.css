@@ -1,0 +1,28 @@
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background-color: #343a40 !important;
+}
+
+.mt-auto,
+.my-auto {
+  margin-top: auto !important;
+}
+
+.py-3 {
+  padding-bottom: 1px !important;
+}
+
+.heading {
+  margin-bottom: 8px;
+  color: yellowgreen;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

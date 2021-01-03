@@ -1,0 +1,32 @@
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+  /*max-width: 660px;*/
+  /* max-height: 660px !important;  // not working properly*/
+  margin: auto;
+  position: relative;
+}
+
+.w-100 {
+  width: 100% !important;
+  height: 450px; /*height of carousel images*/
+}
+
+.d-block {
+  display: flex !important;
+  object-fit: cover !important;
+  image-orientation: from-image;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: yellowgreen;
+}
+
+.contpos {
+  text-align: left;
+  margin-left: 80%;
+}
